@@ -78,3 +78,25 @@ __(将本地仓库与GitHub上创建好的目标远程仓库进行关联。 …�
 
 5、`git push -u origin master`
 __把本地库的所有内容推送到GitHub远程仓库上。__
+
+
+
+#### 分支管理
+
+```
+git checkout -b dev # 创建dev分支，然后切换到dev分支
+```
+
+相当于以下两条命令
+
+```plain
+git branch dev     # 创建dev分支
+git checkout dev   # 切换到dev分支
+```
+
+__单独的用`git branch`命令会列出所有分支，当前分支前面会标一个`*`号__
+
+```
+git merge          # 用于合并指定分支到当前分支
+```
+
