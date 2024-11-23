@@ -50,8 +50,6 @@ git reset --hard HEAD^ # 回退到上一个版本
 
 `--hard`会回退到上个版本的已提交状态，而`--soft`会回退到上个版本的未提交状态，`--mixed`会回退到上个版本已添加但未提交的状态；`HEAD`表示当前版本，`HEAD^`表示上一个版本，`HEAD^^`表示上上一个版本，如果回退比较多的话，可以用`HEAD~100`表示往上100个版本
 
-
-
 #### 关联远程库
 
 1、要关联一个远程库，使用命令`git remote add origin git@server-name:path/repo-name.git`_
